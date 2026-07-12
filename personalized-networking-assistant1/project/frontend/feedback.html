@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Feedback — Personalized Networking Assistant</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="container navbar-inner">
+      <a href="index.html" class="brand">
+        <span class="brand-badge">NA</span>
+        Networking Assistant
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="networking.html">Assistant</a></li>
+        <li><a href="fact-checker.html">Fact Checker</a></li>
+        <li><a href="history.html">History</a></li>
+        <li><a href="feedback.html" class="active">Feedback</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button class="theme-toggle" aria-label="Toggle theme">☀️</button>
+        <button class="nav-toggle-btn" aria-label="Toggle navigation">☰</button>
+      </div>
+    </div>
+  </nav>
+
+  <header class="page-header">
+    <div class="container">
+      <span class="eyebrow">Feedback</span>
+      <h1>What's actually landing in conversation.</h1>
+      <p>Every like and dislike you've given a suggestion, organized so you can spot what works.</p>
+    </div>
+  </header>
+
+  <section>
+    <div class="container">
+      <div class="toolbar">
+        <label for="feedback-filter" style="margin: 0;">Show:</label>
+        <select id="feedback-filter" style="background: var(--bg-alt); color: var(--text); border: 1px solid var(--border-soft); border-radius: 8px; padding: 10px 14px; font-family: var(--font-body);">
+          <option value="all">All feedback</option>
+          <option value="like">Liked only</option>
+          <option value="dislike">Disliked only</option>
+        </select>
+      </div>
+
+      <div class="feedback-columns">
+        <div class="feedback-col">
+          <h3>👍 Liked Suggestions</h3>
+          <div id="liked-list"></div>
+        </div>
+        <div class="feedback-col">
+          <h3>👎 Disliked Suggestions</h3>
+          <div id="disliked-list"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom">
+        © 2026 Personalized Networking Assistant. Built for events, run locally, powered by open models.
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
