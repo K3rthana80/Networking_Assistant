@@ -1,22 +1,22 @@
 # Personalized Networking Assistant
 
-An AI-powered web application that helps users generate intelligent and personalized conversation starters for professional networking events. The application leverages Natural Language Processing (NLP) and Generative AI to analyze event descriptions, generate context-aware conversation suggestions, verify facts, and maintain conversation history.
+An AI-powered web application that helps users generate intelligent and personalized conversation starters for professional networking events. The application uses **DistilBERT** for event theme extraction, **GPT-2** for conversation generation, and the **Wikipedia API** for fact verification.
 
 ---
 
 ## ✨ Features
 
 - Event Theme Analysis using DistilBERT
-- AI-powered Conversation Starter Generation using GPT-2
+- AI-powered Conversation Starter Generation
 - Wikipedia-based Fact Verification
 - Conversation History Management
 - User Feedback Collection
+- Interactive Streamlit Interface
 - FastAPI REST Backend
-- Interactive Streamlit Frontend
 
 ---
 
-## 🛠️ Technology Stack
+## 🛠️ Tech Stack
 
 - Python
 - FastAPI
@@ -30,48 +30,43 @@ An AI-powered web application that helps users generate intelligent and personal
 
 ---
 
-## 🏗️ System Architecture
-
-![System Architecture](Architecture.png)
-
----
-
 ## 📂 Project Structure
 
 ```text
 Networking_Assistant/
-│── app/
-│── services/
-│── routes/
-│── history.json
-│── feedback.json
-│── requirements.txt
-│── README.md
+│
+├── app/
+├── services/
+├── routes/
+├── history.json
+├── feedback.json
+├── requirements.txt
+└── README.md
 ```
 
 ---
 
-## ▶️ Getting Started
+## 🚀 Getting Started
 
-### Clone the Repository
+Clone the repository:
 
 ```bash
 git clone https://github.com/K3rthana80/Networking_Assistant.git
 ```
 
-### Install Dependencies
+Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Run the Backend
+Run the FastAPI backend:
 
 ```bash
 uvicorn main:app --reload
 ```
 
-### Launch the Frontend
+Launch the Streamlit application:
 
 ```bash
 streamlit run app.py
@@ -82,9 +77,9 @@ streamlit run app.py
 ## 🔮 Future Enhancements
 
 - Cloud Deployment
-- Database Integration (PostgreSQL / MongoDB)
-- OAuth Authentication
+- Database Integration
 - LinkedIn Integration
+- OAuth Authentication
 - Multi-language Support
 
 ---
