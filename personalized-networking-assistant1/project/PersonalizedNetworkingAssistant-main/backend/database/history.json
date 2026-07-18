@@ -1,0 +1,66 @@
+[
+    {
+        "timestamp": "2026-06-26 15:51:04",
+        "event": "Cyber Security Summit",
+        "interest": "Ethical Hacking",
+        "themes": [
+            {
+                "theme": "Cyber Security",
+                "confidence": 0.997
+            },
+            {
+                "theme": "Networking",
+                "confidence": 0.825
+            },
+            {
+                "theme": "Technology",
+                "confidence": 0.823
+            },
+            {
+                "theme": "Innovation",
+                "confidence": 0.486
+            },
+            {
+                "theme": "Leadership",
+                "confidence": 0.434
+            },
+            {
+                "theme": "Entrepreneurship",
+                "confidence": 0.43
+            }
+        ],
+        "conversation": "\"Don't use my name.\" – Anonymous ."
+    },
+    {
+        "timestamp": "2026-06-26 15:51:06",
+        "event": "Cyber Security Summit",
+        "interest": "Ethical Hacking",
+        "themes": [
+            {
+                "theme": "Cyber Security",
+                "confidence": 0.997
+            },
+            {
+                "theme": "Networking",
+                "confidence": 0.825
+            },
+            {
+                "theme": "Technology",
+                "confidence": 0.823
+            },
+            {
+                "theme": "Innovation",
+                "confidence": 0.486
+            },
+            {
+                "theme": "Leadership",
+                "confidence": 0.434
+            },
+            {
+                "theme": "Entrepreneurship",
+                "confidence": 0.43
+            }
+        ],
+        "conversation": "Cybersecurity Basics & Techniques"
+    }
+]
